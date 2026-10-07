@@ -1,0 +1,16 @@
+O conteúdo aborda o conceito fundamental de viés (bias) e variância (variance) em aprendizado de máquina, explicando como diagnosticar problemas de underfitting e overfitting a partir dos erros em conjuntos de treinamento e desenvolvimento.
+
+Entendendo viés e variância
+
+Viés alto ocorre quando o modelo é muito simples e não consegue capturar a complexidade dos dados, resultando em underfitting.
+Variância alta acontece quando o modelo é muito complexo e se ajusta demais aos dados de treinamento, causando overfitting e baixa generalização.
+Diagnóstico com erros de treinamento e desenvolvimento
+
+Erro baixo no treinamento e alto no desenvolvimento indica alta variância (overfitting).
+Erro alto tanto no treinamento quanto no desenvolvimento indica alto viés (underfitting).
+Erro alto no treinamento e ainda maior no desenvolvimento indica alto viés e alta variância simultaneamente.
+Considerações avançadas e exemplos
+
+Em problemas com alta complexidade ou ruído, o erro ótimo (Bayes error) pode ser maior que zero, o que altera a interpretação de viés e variância.
+Em espaços de alta dimensão, é comum encontrar regiões com viés alto e outras com variância alta no mesmo modelo.
+A análise de viés e variância ajuda a guiar estratégias para melhorar o desempenho do modelo, que serão abordadas em vídeos posteriores.

@@ -1,0 +1,14 @@
+Esta aula aborda os aspectos práticos para fazer uma rede neural funcionar bem, focando em como configurar conjuntos de dados e ajustar hiperparâmetros para melhorar o desempenho.
+
+Configuração dos conjuntos de dados
+
+Dividir os dados em conjuntos de treino, desenvolvimento (dev) e teste é fundamental para avaliar e melhorar o modelo.
+Em grandes bases de dados, o conjunto de dev e teste pode ser uma pequena fração (ex: 1%) do total, pois precisam apenas ser grandes o suficiente para comparar modelos.
+Processo iterativo de ajuste
+
+Escolher hiperparâmetros (número de camadas, unidades ocultas, taxa de aprendizado, funções de ativação) é difícil na primeira tentativa.
+O aprendizado profundo aplicado é um processo iterativo: testar, avaliar no conjunto dev, ajustar e repetir para encontrar a melhor configuração.
+Desafios e boas práticas
+
+Dados de treino e teste podem ter distribuições diferentes; idealmente, dev e teste devem vir da mesma distribuição para avaliação consistente.
+Em alguns casos, pode-se trabalhar sem conjunto de teste separado, usando apenas treino e dev, mas isso pode levar a uma avaliação tendenciosa do desempenho final.

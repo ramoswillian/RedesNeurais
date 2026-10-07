@@ -1,0 +1,22 @@
+Esta aula apresenta uma receita básica para melhorar o desempenho de redes neurais, focando na identificação e tratamento dos problemas de viés (bias) e variância.
+
+Diagnóstico de Viés e Variância
+
+Para detectar alto viés, avalie o desempenho no conjunto de treinamento; se o modelo não se ajusta bem, pode ser necessário aumentar a complexidade da rede ou treinar por mais tempo.
+Para identificar alta variância, observe o desempenho no conjunto de validação (dev set); se o modelo se ajusta bem ao treinamento, mas não generaliza, pode ser necessário mais dados ou regularização.
+Estratégias para Reduzir Viés
+
+Aumentar o número de camadas ou unidades ocultas na rede neural.
+Treinar por mais tempo ou experimentar arquiteturas diferentes que possam se adequar melhor ao problema.
+Estratégias para Reduzir Variância
+
+Obter mais dados de treinamento, quando possível.
+Aplicar técnicas de regularização para evitar overfitting.
+Experimentar arquiteturas que possam reduzir a complexidade excessiva do modelo.
+Considerações sobre o Trade-off Viés-Variância
+
+No passado, reduzir viés frequentemente aumentava variância e vice-versa, mas com redes maiores e mais dados, é possível reduzir um sem prejudicar o outro significativamente.
+Treinar redes maiores geralmente reduz o viés, e mais dados ajudam a diminuir a variância, especialmente se a regularização for aplicada adequadamente.
+Importância da Regularização
+
+A regularização é uma técnica fundamental para controlar a variância, podendo aumentar um pouco o viés, mas geralmente é eficaz para melhorar a generalização do modelo.

@@ -1,0 +1,14 @@
+Esta aula aborda o conceito de regularização para reduzir o problema de alta variância (overfitting) em redes neurais e modelos de regressão logística.
+
+Regularização em Regressão Logística
+
+A função de custo é modificada adicionando um termo de regularização que penaliza o tamanho dos parâmetros (pesos) do modelo.
+A regularização L2 (norma Euclidiana) é a mais comum, somando o quadrado dos pesos multiplicado por um parâmetro lambda, que controla a força da regularização.
+Regularização em Redes Neurais
+
+A regularização L2 é aplicada somando o quadrado de todos os elementos das matrizes de pesos em todas as camadas, usando a norma de Frobenius.
+Durante o gradiente descendente, o gradiente é ajustado para incluir o termo de regularização, o que faz com que os pesos sejam "decrescidos" a cada atualização, daí o nome "weight decay" (decaimento de peso).
+Parâmetro de Regularização e Intuição
+
+O parâmetro lambda é um hiperparâmetro que deve ser ajustado para equilibrar o ajuste do modelo e a penalização dos pesos, geralmente definido com base no conjunto de validação.
+A regularização ajuda a evitar o overfitting ao manter os pesos pequenos, o que limita a complexidade do modelo e melhora sua generalização.
